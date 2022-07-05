@@ -12,7 +12,7 @@ public class College {
         ivanov.setBeginingDate(new GregorianCalendar(2021, Calendar.SEPTEMBER, 1));
         SimpleDateFormat formater = new SimpleDateFormat("yyyy-MM-dd");
         System.out.println("Full name - " + ivanov.getFullName()
-                + ". Group - " +ivanov.getGroup() + ". Begining date - "
+                + ". Group - " + ivanov.getGroup() + ". Begining date - "
                 + formater.format(ivanov.getBeginingDate().getTime()));
     }
 }

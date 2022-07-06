@@ -29,7 +29,7 @@ public class Library {
         }
 
         for (int i = 0; i < arrayBook.length; i++) {
-            if (arrayBook[i].getName().equals("Clean code")) {
+            if ("Clean code".equals(arrayBook[i].getName())) {
                 System.out.println("Книги с именем Clean code");
                 System.out.println("Имя - " + arrayBook[i].getName() + ". Количество страниц " + arrayBook[i].getCount());
             }

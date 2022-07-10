@@ -49,8 +49,8 @@ public class Tracker {
         int index = indexOf(id);
         if (index != -1) {
             int oldIds = items[index].getId();
+            item.setId(oldIds);
             items[index] = item;
-            items[index].setId(oldIds);
             return true;
         }
         return false;

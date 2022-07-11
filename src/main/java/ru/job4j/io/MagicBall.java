@@ -13,8 +13,7 @@ public class MagicBall {
         if (answer == 0) {
             System.out.println(inString);
             System.out.println("Да");
-        } else
-            if (answer == 1) {
+        } else if (answer == 1) {
                 System.out.println(inString);
                 System.out.println("Нет");
             } else {
